@@ -1,0 +1,8 @@
+﻿# OS
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
