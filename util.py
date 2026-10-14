@@ -68,7 +68,7 @@ def generate_script(subject, video_length, creativity, api_key):
 
     model = ChatOpenAI(
         model="deepseek-flash",
-        api_key=os.getenv("DEEPSEEK_API_KEY"),
+        api_key=api_key or os.getenv("DEEPSEEK_API_KEY"),
         temperature=creativity,
         base_url="https://api.deepseek.com/v1",
     )

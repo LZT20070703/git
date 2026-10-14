@@ -1,8 +1,10 @@
-﻿# OS
-Thumbs.db
-Desktop.ini
-
-# Editors
-.vscode/
+.venv/
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
 .idea/
-*.swp
+.workbuddy/
+requirements.txt.bak
+新建文本文档.txt
